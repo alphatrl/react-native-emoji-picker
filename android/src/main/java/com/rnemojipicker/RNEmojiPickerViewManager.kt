@@ -27,8 +27,6 @@ class RNEmojiPickerViewManager :
     view?.emojiGridRows = emojiGridRows
   }
 
-  fun set
-
   companion object {
     const val NAME = "EmojiPickerView"
   }
