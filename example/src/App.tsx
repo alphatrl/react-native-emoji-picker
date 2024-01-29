@@ -6,20 +6,23 @@ import { EmojiPickerView } from 'react-native-emoji-picker';
 export default function App() {
   return (
     <View style={styles.container}>
-      <EmojiPickerView color="#32a852" style={styles.box} />
+      <EmojiPickerView style={styles.box} emojiColumns={10} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    flexGrow: 1,
+    // flex: 1,
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+    // width: 100,
+    // height: 100,
+    flexGrow: 1,
+    // backgroundColor: 'pink',
+    // marginVertical: 20,
   },
 });
