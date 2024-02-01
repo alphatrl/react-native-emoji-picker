@@ -6,7 +6,7 @@ import { EmojiPickerView } from 'react-native-emoji-picker';
 export default function App() {
   return (
     <View style={styles.container}>
-      <EmojiPickerView style={styles.box} />
+      <EmojiPickerView style={styles.box} emojiColumns={10} />
     </View>
   );
 }
@@ -14,8 +14,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
+    backgroundColor: 'green',
   },
   box: {
-    flexGrow: 1,
+    flex: 1,
+    backgroundColor: 'pink',
   },
 });
