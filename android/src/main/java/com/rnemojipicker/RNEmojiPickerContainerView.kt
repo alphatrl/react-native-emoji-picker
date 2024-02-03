@@ -17,13 +17,13 @@ class RNEmojiPickerContainerView(context: Context, emojiPickerView: EmojiPickerV
 
   val mEmojiPickerView = getChildAt(0) as EmojiPickerView
 
-//  fun setEmojiGridColumns(emojiGridColumns: Int) {
-//    mEmojiPickerView.emojiGridColumns = emojiGridColumns
-//  }
-//
-//  fun setEmojiGridRows(emojiGridRows: Float) {
-//    mEmojiPickerView.emojiGridRows = emojiGridRows
-//  }
+  fun setEmojiGridColumns(emojiGridColumns: Int) {
+    mEmojiPickerView.emojiGridColumns = emojiGridColumns
+  }
+
+  fun setEmojiGridRows(emojiGridRows: Float) {
+    mEmojiPickerView.emojiGridRows = emojiGridRows
+  }
 
   companion object {
     /**
